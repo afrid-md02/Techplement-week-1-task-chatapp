@@ -40,7 +40,7 @@ function SendMessageForm() {
         ref={messageRef}
         placeholder="Type your message here..."
         type="text"
-        className="w-full h-8 px-3 text-sm tracking-wider border-2 rounded-full outline-none border-border bg-background text-copy focus-within:bg-themebtnbg"
+        className="w-full h-8 px-3 text-sm tracking-wider border-2 rounded-full outline-none border-border bg-background text-copy focus-within:bg-themebtnbg py-1"
       />
       <button
         type="submit"
